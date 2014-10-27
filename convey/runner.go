@@ -1,7 +1,7 @@
 package convey
 
 import (
-	"github.com/smartystreets/goconvey/convey/reporting"
+	"github.com/asappinc/goconvey/convey/reporting"
 )
 
 type runner struct {

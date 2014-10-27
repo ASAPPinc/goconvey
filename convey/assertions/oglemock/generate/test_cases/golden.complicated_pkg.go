@@ -14,9 +14,9 @@ import (
 	runtime "runtime"
 	unsafe "unsafe"
 
-	oglemock "github.com/smartystreets/goconvey/convey/assertions/oglemock"
-	complicated_pkg "github.com/smartystreets/goconvey/convey/assertions/oglemock/generate/test_cases/complicated_pkg"
-	tony "github.com/smartystreets/goconvey/convey/assertions/oglemock/generate/test_cases/renamed_pkg"
+	oglemock "github.com/asappinc/goconvey/convey/assertions/oglemock"
+	complicated_pkg "github.com/asappinc/goconvey/convey/assertions/oglemock/generate/test_cases/complicated_pkg"
+	tony "github.com/asappinc/goconvey/convey/assertions/oglemock/generate/test_cases/renamed_pkg"
 )
 
 type MockComplicatedThing interface {

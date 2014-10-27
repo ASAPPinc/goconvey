@@ -62,8 +62,8 @@ for it as follows:
 package people
 
 import (
-  "github.com/smartystreets/goconvey/convey/assertions/oglematchers"
-  "github.com/smartystreets/goconvey/convey/assertions/ogletest"
+  "github.com/asappinc/goconvey/convey/assertions/oglematchers"
+  "github.com/asappinc/goconvey/convey/assertions/ogletest"
   "testing"
 )
 
@@ -102,8 +102,8 @@ package name:
 
 ```go
 import (
-  . "github.com/smartystreets/goconvey/convey/assertions/oglematchers"
-  . "github.com/smartystreets/goconvey/convey/assertions/ogletest"
+  . "github.com/asappinc/goconvey/convey/assertions/oglematchers"
+  . "github.com/asappinc/goconvey/convey/assertions/ogletest"
 )
 ```
 

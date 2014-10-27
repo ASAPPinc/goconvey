@@ -4,7 +4,7 @@ import (
 	"flag"
 	"os"
 
-	"github.com/smartystreets/goconvey/convey/reporting"
+	"github.com/asappinc/goconvey/convey/reporting"
 )
 
 func init() {

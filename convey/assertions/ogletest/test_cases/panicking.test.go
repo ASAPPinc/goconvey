@@ -18,8 +18,9 @@ package oglematchers_test
 import (
 	"fmt"
 	"testing"
-	. "github.com/smartystreets/goconvey/convey/assertions/oglematchers"
-	. "github.com/smartystreets/goconvey/convey/assertions/ogletest"
+
+	. "github.com/asappinc/goconvey/convey/assertions/oglematchers"
+	. "github.com/asappinc/goconvey/convey/assertions/ogletest"
 )
 
 ////////////////////////////////////////////////////////////////////////

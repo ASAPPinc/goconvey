@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/smartystreets/goconvey/convey/reporting"
+	"github.com/asappinc/goconvey/convey/reporting"
 )
 
 type scope struct {

@@ -13,7 +13,7 @@ import (
 	runtime "runtime"
 	unsafe "unsafe"
 
-	oglemock "github.com/smartystreets/goconvey/convey/assertions/oglemock"
+	oglemock "github.com/asappinc/goconvey/convey/assertions/oglemock"
 )
 
 type MockImage interface {

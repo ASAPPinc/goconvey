@@ -19,8 +19,9 @@ import (
 	"fmt"
 	"math"
 	"unsafe"
-	. "github.com/smartystreets/goconvey/convey/assertions/oglematchers"
-	. "github.com/smartystreets/goconvey/convey/assertions/ogletest"
+
+	. "github.com/asappinc/goconvey/convey/assertions/oglematchers"
+	. "github.com/asappinc/goconvey/convey/assertions/ogletest"
 )
 
 var someInt int = -17

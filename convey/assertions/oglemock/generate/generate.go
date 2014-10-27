@@ -267,7 +267,7 @@ func getImports(interfaces []reflect.Type) importMap {
 	// Make sure there are imports for other types used by the generated code
 	// itself.
 	imports["fmt"] = "fmt"
-	imports["oglemock"] = "github.com/smartystreets/goconvey/convey/assertions/oglemock"
+	imports["oglemock"] = "github.com/asappinc/goconvey/convey/assertions/oglemock"
 	imports["runtime"] = "runtime"
 	imports["unsafe"] = "unsafe"
 

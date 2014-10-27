@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/smartystreets/goconvey/convey/assertions/oglematchers"
+	"github.com/asappinc/goconvey/convey/assertions/oglematchers"
 )
 
 // default acceptable delta for ShouldAlmostEqual

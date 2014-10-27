@@ -18,7 +18,7 @@ package ogletest
 import (
 	"sync"
 
-	"github.com/smartystreets/goconvey/convey/assertions/oglemock"
+	"github.com/asappinc/goconvey/convey/assertions/oglemock"
 )
 
 // TestInfo represents information about a currently running or previously-run

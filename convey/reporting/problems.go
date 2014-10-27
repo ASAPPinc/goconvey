@@ -1,6 +1,9 @@
 package reporting
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 type problem struct {
 	out      *Printer
@@ -40,6 +43,8 @@ func (self *problem) showErrors() {
 			self.out.Indent()
 		}
 		self.out.Println(errorTemplate, e.File, e.Line, e.Error, e.StackTrace)
+		self.out.Println(resetColor)
+		os.Exit(1)
 	}
 }
 func (self *problem) showFailures() {
